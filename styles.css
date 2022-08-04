@@ -1,0 +1,38 @@
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'display display display display'
+        'clear clear clear divide'
+        'seven eight nine multiply'
+        'four five six subtract'
+        'three two one add'
+        'zero zero decimal equals';
+    width: 500px;
+}
+
+#one { grid-area: one; }
+#two { grid-area: two; }
+#three { grid-area: three; }
+#four { grid-area: four; }
+#five { grid-area: five; }
+#six { grid-area: six; }
+#seven { grid-area: seven; }
+#eight { grid-area: eight; }
+#nine { grid-area: nine; }
+#zero { grid-area: zero; }
+
+#display { grid-area: display; }
+
+#add { grid-area: add; }
+#subtract { grid-area: subtract; }
+#multiply { grid-area: multiply; }
+#divide { grid-area: divide; }
+#equals { grid-area: equals; }
+#clear { grid-area: clear; }
+#decimal { grid-area: decimal; }
+
+#display {
+    border: 1px solid black;
+    height: 20px;
+    text-align: center;
+}
